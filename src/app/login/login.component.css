@@ -1,0 +1,24 @@
+section{
+    background-color: #F4F6FF;
+}
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+.custom-recaptcha-container {
+    margin: 10px auto;
+    /* width: 100%;
+    background-color: #222; */
+    border-radius:5px ;
+    display: flex;
+    justify-content: center;
+  }
+  .btnContainer {
+    cursor: not-allowed;
+    height: 45px;
+    border-radius: 10px;
+  }
